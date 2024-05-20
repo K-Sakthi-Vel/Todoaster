@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todoaster</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="inner-div">
+                <div class="add-task">
+                    <img  class="input-img"src="input-task.svg">
+                    <input type="text" name="text" id="addingTask" placeholder="Enter task name...">
+                </div>
+                <div class="status">
+                    <span class="complete-all-task"><img src="list.svg"><p style="margin-left: 5px;" class="complete-all-task-btn">Complete all task</p></span>
+                    <span id="clear-span"><p class="clear-all-task">Clear all task</p></span>
+                </div>
+                <ul id="task-space">
+                    
+                </ul>
+                <div  class="footer">
+                    <span style="margin-left:20px ;">
+                        <div id="task-count"><p> 0 </p></div>
+                        <span style="margin-left: 5px;"><p>Task left</p></span>
+                    </span>
+                    <span style="margin-right:20px ;">
+                        <span style="margin-left: 19rem;"><p>All</p></span>
+                        <span><p style="margin-left: 10px;  opacity: .7;">Uncomplete</p></span>
+                        <span><p style="margin-left: 10px;  opacity: .7;">Completed</p></span>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/91b25f8033.js" crossorigin="anonymous"></script>
+    </body>
+</html>
