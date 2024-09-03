@@ -2,7 +2,7 @@
 <p>I am thrilled to share my second project in front end development as a beginer.</p>
 <p>I have build a Todo list, that makes life easier by adding important tasks in it, and make sure to complete them.</p>
 
-LIVE APP: https://sakthivel-programmer.github.io/Todoaster/
+LIVE APP: https://todoaster.vercel.app/
 
 <p>How my implementation in javascript?</p>
 <p>I have set of functions that runs my Todo list perfect, they are,</p>
